@@ -3,6 +3,9 @@
 A simple React application that allows users to search for images using the Pixabay API. Users can enter a search term, select the number of images to display, and view results in a responsive grid format. Built with React and Material UI.
 
 ---
+## Live Preview
+
+Check out the live version of this project [here](https://image-finder-plum.vercel.app/).
 
 ## Features
 
