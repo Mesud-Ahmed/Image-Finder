@@ -28,13 +28,7 @@ export default function ImageResult({ images }) {
                                 style={{ width: "100%", height: "200px", objectFit: "cover", borderRadius: "8px", cursor: "pointer" }}
                                 onClick={() => handleClickOpen(img)}
                             />
-                            <IconButton sx={{
-                                position: "absolute", top: 10, right: 10, backgroundColor: "rgba(0, 0, 0, 0.6)",
-                                borderRadius: "50%",
-                                padding: "8px",
-                            }}>
-                                <ZoomInIcon color="primary" />
-                            </IconButton>
+                            
                         </div>
                     </Grid>
                 ))}

@@ -1,8 +1,22 @@
-# React + Vite
+# Pixabay Image Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that allows users to search for images using the Pixabay API. Users can enter a search term, select the number of images to display, and view results in a responsive grid format. Built with React and Material UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Image Search**: Search for images by keyword and filter the number of images displayed.
+- **Responsive Layout**: Uses Material UI components for a clean, responsive interface.
+- **Zoom-In Functionality**: Provides a modal view for each image on click.
+
+---
+
+## Technologies
+
+- **React**: UI framework for building the application.
+- **Material UI**: UI library for styling components.
+- **Axios**: For making HTTP requests to the Pixabay API.
+
+---
+
