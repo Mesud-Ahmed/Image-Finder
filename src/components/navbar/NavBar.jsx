@@ -24,7 +24,9 @@ const Navbar = () => {
       </Toolbar>
       
     </AppBar>
-    
+    <Box sx={{ mt: -20 }}>  {/* Adjust 'm' for more or less margin */}
+        <Search />
+      </Box>
     </>
   );
 };
